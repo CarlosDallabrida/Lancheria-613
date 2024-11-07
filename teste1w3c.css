@@ -242,6 +242,21 @@ a:link{
     div.none{
         display: inline;
     }
+
+    .principal{
+        display: flex;
+    }
+    
+    .subMenu{
+        display: block;
+        display: none;
+    }
+    
+    .sublista:focus-within{
+        .subMenu{display: block;}
+    }
+
+    
  
 }
 
