@@ -77,7 +77,8 @@ a{
 }
 .desc{
     bottom: 0.5px;
-
+    border: chocolate;
+    border-radius: 10px;
     background-color: chocolate;
     width: 100%;
 }
@@ -95,6 +96,16 @@ img{
 div.none{
     display: none;
 }
+
+
+a:link{
+    text-decoration: none;
+ 
+}
+
+
+
+
 
 
 
