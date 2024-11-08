@@ -245,6 +245,7 @@ a:link{
 
     .principal{
         display: flex;
+       
     }
     
     .subMenu{
@@ -254,6 +255,10 @@ a:link{
     
     .sublista:focus-within{
         .subMenu{display: block;}
+    }
+
+    .centro{
+        text-align: center;
     }
 
     
