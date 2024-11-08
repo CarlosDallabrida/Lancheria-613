@@ -100,49 +100,63 @@ a:link{
 
 .principal{
     display: flex;
-   
+    
+    
 }
+
+.sublista{
+    position: relative;
+}
+
+
+
 
 .subMenu{
     display: block;
     display: none;
-    margin-left:  13%;
+   
 }
 
 .sublista:focus-within{
     .subMenu{display: block;}
-}
-
-.centro{
-    text-align: center;
+    
 }
 
 .opcoes{
-    margin: 10%;
-    border: 10px solid #E6BAA3;
+   
+    border: 6px solid #E6BAA3;
     background-color: #E4DEBE;
-    border-radius: 30px;
-    text-align: center;
+    border-radius: 20px;
+    margin-left: 20%;
     color: #D24545;
-    font-size: 5vh ;
+    font-size: 6vh;
+    width: 94%;
 
 }
 
 .opcoes2{
-    border: 10px solid #E4DEBE;
+    border: 6px solid #E4DEBE;
     background-color: #D24545;
-    text-align: center;
     color: #E4DEBE;
-    font-size: 5vh ;
+    font-size: 4vh ;
     padding-top: 1%;
-    padding-bottom: 1%;
-    width: 80%;
-    border-radius: 30px;
-    margin-left: 1%;
-    margin-right: 5%;
-    margin-bottom: 1%;
-    margin-top: 3%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10%;
+   
 }
+
+li{
+    list-style: none;
+}
+
+.none{
+    display: none;
+}
+
+
+
 
 
 
@@ -274,12 +288,11 @@ a:link{
     li{
         display: inline;
     }
-
+    
     .principal{
         display: flex;
-       
     }
-    
+
     .subMenu{
         display: block;
         display: none;
@@ -321,6 +334,13 @@ a:link{
         margin-right: 5%;
         margin-bottom: 1%;
         margin-top: 3%;
+    }
+
+    .none{
+        display: inline;
+    }
+    .none2{
+        display: none;
     }
  
 }
