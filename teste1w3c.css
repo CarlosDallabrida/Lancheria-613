@@ -67,7 +67,6 @@ a{
     text-align: center;
     color: #E4DEBE;
     font-size: 5vh ;
-    position: relative;
     padding-top: 1%;
     padding-bottom: 1%;
     width: 70%;
@@ -93,16 +92,57 @@ img{
     margin: 2%;
 }
 
-div.none{
-    display: none;
-}
-
 
 a:link{
     text-decoration: none;
  
 }
 
+.principal{
+    display: flex;
+   
+}
+
+.subMenu{
+    display: block;
+    display: none;
+    margin-left:  13%;
+}
+
+.sublista:focus-within{
+    .subMenu{display: block;}
+}
+
+.centro{
+    text-align: center;
+}
+
+.opcoes{
+    margin: 10%;
+    border: 10px solid #E6BAA3;
+    background-color: #E4DEBE;
+    border-radius: 30px;
+    text-align: center;
+    color: #D24545;
+    font-size: 5vh ;
+
+}
+
+.opcoes2{
+    border: 10px solid #E4DEBE;
+    background-color: #D24545;
+    text-align: center;
+    color: #E4DEBE;
+    font-size: 5vh ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
 
 
 
@@ -137,16 +177,16 @@ a:link{
     }
     
     div.fixed{
-        border: 10px solid E6BAA3;
-        background-color: E4DEBE;
+        border: 10px solid #E6BAA3;
+        background-color: #E4DEBE;
        
         margin-bottom: 2%;
         right: 0;
         margin-left: 5%;
         margin-right: 5%;
-        border: 3px solid E6BAA3;
+        border: 3px solid #E6BAA3;
         font-size: 3vh;
-        color: D24545;
+        color: #D24545;
         margin-top: 50px;
         padding: 6px
     
@@ -235,14 +275,6 @@ a:link{
         display: inline;
     }
 
-    div.none2{
-        display: none;
-    }
-
-    div.none{
-        display: inline;
-    }
-
     .principal{
         display: flex;
        
@@ -251,6 +283,7 @@ a:link{
     .subMenu{
         display: block;
         display: none;
+        margin-left:  13%;
     }
     
     .sublista:focus-within{
@@ -261,7 +294,34 @@ a:link{
         text-align: center;
     }
 
-    
+    .opcoes{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border: 10px solid #E6BAA3;
+        background-color: #E4DEBE;
+        border-radius: 30px;
+        text-align: center;
+        color: #D24545;
+        font-size: 5vh ;
+    }
+
+    .opcoes2{
+        border: 10px solid #E4DEBE;
+        background-color: #D24545;
+        text-align: center;
+        color: #E4DEBE;
+        font-size: 5vh ;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 70%;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 1%;
+        margin-top: 3%;
+    }
  
 }
 
