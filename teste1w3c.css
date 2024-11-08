@@ -4,6 +4,7 @@ body{
 
 .mensagem{
     display: none;
+    margin-top: 60%;
 }
 
 h1, h2{
