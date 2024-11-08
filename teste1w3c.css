@@ -108,7 +108,12 @@ a:link{
     position: relative;
 }
 
-
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+}
 
 
 .subMenu{
@@ -127,7 +132,7 @@ a:link{
     border: 6px solid #E6BAA3;
     background-color: #E4DEBE;
     border-radius: 20px;
-    margin-left: 20%;
+    margin-left: 24%;
     color: #D24545;
     font-size: 6vh;
     width: 94%;
@@ -143,7 +148,8 @@ a:link{
     width: 100%;
     border-radius: 20px;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-top: 3%;
    
 }
 
